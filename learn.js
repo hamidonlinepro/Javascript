@@ -17,5 +17,11 @@ console.log(`hello ${"nam"}`); // ?
 
 console.log(`hello ${nam}`); // ?
 
-result = prompt("hi", "yes");
-alert(result);
+// result = prompt("hi", "yes");
+// alert(result);
+
+function showMessage() {
+    console.log("hello Function !");
+}
+
+showMessage()
